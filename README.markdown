@@ -1,8 +1,6 @@
-# Nitrogen Web Framework for Erlang
+# [Wildfire](http://wildfireapp.com) Chat Demo
 
-Nitrogen is an Erlang-based web framework that allows you to develop
-infinitely scaleable, Ajax-rich web applications using a pure Erlang 
-technology stack.
+### Using Nitrogen Web Framework for Erlang
 
 See the [Nitrogen Project website](http://nitrogenproject.com) for
 additional information.
@@ -11,8 +9,8 @@ additional information.
 
 Download the code and move to the experimental branch.
 
-    git clone git://github.com/rklophaus/nitrogen.git
-    cd nitrogen
+    git clone git://github.com:kblake/erlang-chat-demo.git
+    cd erlang-chat-demo
 
 Then, run the following...
 
@@ -20,13 +18,5 @@ Then, run the following...
 
     cd Quickstart 
     ./quickstart.sh
-
-Open your web browser to http://localhost:8000
-
-### Create a New Project
-
-    make rel_inets
-    cd rel/nitrogen
-    bin/nitrogen start
 
 Open your web browser to http://localhost:8000
